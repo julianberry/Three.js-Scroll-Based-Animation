@@ -60,6 +60,10 @@ mesh1.position.y = - objectsDistance * 0
 mesh2.position.y = - objectsDistance * 1
 mesh3.position.y = - objectsDistance * 2
 
+mesh1.position.x = 2
+mesh2.position.x = -2
+mesh3.position.x = 2
+
 scene.add(mesh1, mesh2, mesh3)
 
 const sectionMeshes = [ mesh1, mesh2, mesh3 ]
@@ -122,6 +126,19 @@ let scrollY = window.scrollY
         })
 
 /**
+ * Cursor
+ */
+const cursor = {}
+cursor.x = 0
+cursor.y = 0
+
+window.addEventListener('mousemove', (event) =>
+{
+    cursor.x = event.clientX
+    cursor.y = event.clientY
+})
+
+/**
  * Animate
  */
 const clock = new THREE.Clock()
@@ -131,7 +148,7 @@ const tick = () =>
     const elapsedTime = clock.getElapsedTime()
 
     // Animate Camera
-    camera.position.y = - scrollY  * .010
+    camera.position.y = - scrollY / sizes.height * objectsDistance
 
     //Animate Meshes
     for(const mesh of sectionMeshes)
