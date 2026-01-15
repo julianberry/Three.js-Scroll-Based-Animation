@@ -2,7 +2,10 @@
 ## Overview
 This portfolio site shell was built based on Bruno Simon's "Three.js Journey" tutorial. This project focuses on scroll based animation and explores the options for incorporating Three.js into a more traditional website. It features several primitive 3D shapes, particles, and parallax effects.
 
-![Scene Preview](./static/preview.jpg)
+![Scene Preview](./static/portfolio.jpg)
+![Scene Preview](./static/projects.jpg)
+![Scene Preview](./static/certifications.jpg)
+![Scene Preview](./static/contact.jpg)
 
 ## Features
 * Primitive 3D shapes to demonstrate how Three.js can be incorporated into traditional sites
