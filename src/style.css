@@ -12,7 +12,7 @@ body
 
 html
 {
-    background: #1e1a20;
+    background: #00061a;
 }
 
 .webgl
@@ -31,7 +31,7 @@ html
     height: 100vh;
     position: relative;
     font-family: 'Cabin', sans-serif;
-    color: #ffeded;
+    color: #ffffff;
     text-transform: uppercase;
     font-size: 7vmin;
     padding-left: 10%;
