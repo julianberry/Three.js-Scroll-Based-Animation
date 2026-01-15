@@ -25,8 +25,8 @@ This portfolio site shell was built based on Bruno Simon's "Three.js Journey" tu
 
 ## Installation
 ```bash
-git clone https://github.com/julianberry/Scroll-Based-Animation.git
-cd Scroll-Based-Animation
+git clone https://github.com/julianberry/Three.js-Scroll-Based-Animation.git
+cd Three.js-Scroll-Based-Animation
 npm install
 npm run dev
 ```
